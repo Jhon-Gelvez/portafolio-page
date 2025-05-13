@@ -337,7 +337,7 @@ h1 {
 .contact {
     user-select: none;
     display: grid;
-    width: clamp(300px, 60%, 2400px);
+    width: clamp(300px, 45%, 600px);
     height: clamp(50dvh, 60dvh, 80dvh);
     margin: auto;
     border: 2px solid #ccc;

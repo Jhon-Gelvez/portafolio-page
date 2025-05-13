@@ -638,14 +638,9 @@ h1 {
     /* main */
     .main__typewriter-container {
         max-width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        text-align: center;
-        height: 90dvh;
-        top: -100px;
+        min-height: 20dvh !important; /* Sobrescribe el min-height original */
+        height: auto; /* Opcional, permite que se ajuste al contenido si es necesario */
+        top: 0; /* Elimina el negativo que no tenía efecto */
     }
     .text {
         font-size: 1.5rem;
@@ -674,6 +669,20 @@ h1 {
         grid-template-columns: 1fr 1.5fr;
         grid-template-rows: 1fr 1fr 3fr 0.7fr 0.5fr;
     }
+
+    /* section contact */
+
+    .contact {
+        height: 40dvh;
+    }
+
+    .form__tittle {
+        width: auto;
+    }
+
+    .form__input-container {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -687,6 +696,7 @@ h1 {
         background-size: cover;
     }
     /* main */
+
     .text {
         font-size: 1.1rem;
     }

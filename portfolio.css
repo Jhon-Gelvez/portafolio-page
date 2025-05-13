@@ -54,7 +54,7 @@ body {
 }
 
 .header__img img {
-    width: 70px;
+    width: 4.375rem;
     height: auto;
     background-size: cover;
 }
@@ -642,6 +642,11 @@ h1 {
         height: auto; /* Opcional, permite que se ajuste al contenido si es necesario */
         top: 0; /* Elimina el negativo que no tenía efecto */
     }
+
+    .linea {
+        width: 100%;
+    }
+    
     .text {
         font-size: 1.5rem;
     }
@@ -672,8 +677,10 @@ h1 {
 
     /* section contact */
 
-    .contact {
-        height: 40dvh;
+    .contact {    
+        min-height: 40dvh;
+        max-height: 60dvh;
+        animation: sombra-rgb 4s infinite both;
     }
 
     .form__tittle {

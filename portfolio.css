@@ -180,7 +180,7 @@ input[type='checkbox']:active ~ label {
     align-items: center;
     margin: auto;
     text-align: center;
-    height: 90dvh;
+    min-height: 90dvh;
     top: -100px;
 }
 
@@ -221,7 +221,7 @@ input[type='checkbox']:active ~ label {
 .project {
     max-width: 80%;
     margin: auto;
-    height: 90dvh;
+    min-height: 90dvh;
 }
 
 h1 {
@@ -346,6 +346,7 @@ h1 {
     animation: sombra-rgb 4s infinite;
     background-color: transparent;
     margin-bottom: 24px;
+    margin-top: 60px;
 }
 
 .contact__container {

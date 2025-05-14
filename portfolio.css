@@ -95,11 +95,11 @@ input[type='checkbox']:active ~ label {
     width: fit-content;
 }
 
-.sidebar:has(input[type='checkbox']) :is(.sidebar__li a) {
+.sidebar:has(input[type='checkbox']) :is(.sidebar__li .sidebar__a) {
     display: none;
 }
 
-.sidebar:has(input[type='checkbox']:checked) :is(.sidebar__li a) {
+.sidebar:has(input[type='checkbox']:checked) :is(.sidebar__li .sidebar__a) {
     display: block;
 }
 
@@ -646,7 +646,7 @@ h1 {
     .linea {
         width: 100%;
     }
-    
+
     .text {
         font-size: 1.5rem;
     }
@@ -677,7 +677,7 @@ h1 {
 
     /* section contact */
 
-    .contact {    
+    .contact {
         min-height: 40dvh;
         max-height: 60dvh;
         animation: sombra-rgb 4s infinite both;

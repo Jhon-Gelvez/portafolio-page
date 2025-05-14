@@ -37,19 +37,24 @@
         </form>
         <nav class="sidebar__nav">
             <ul class="sidebar__ul">
-                <li class="sidebar__li">
-                    <span class="material-icons md-24">home</span>
-                    <a href="#Inicio">Inicio</a>
+                <a href="#Inicio">
+                    <li class="sidebar__li">
+                        <span class="material-icons md-24">home</span>
+                        <a class="sidebar__a" href="#Inicio">Inicio</a>
+                    </li>
+                </a>
+                <a href="#Contact">
+                    <li class="sidebar__li">
+                        <span class="material-icons md-24">mail</span>
+                        <a class="sidebar__a" href="#Contact">Mensajes</a>
+                </a>
                 </li>
-                <li class="sidebar__li">
-                    <span class="material-icons md-24">mail</span>
-                    <a href="#">Mensajes</a>
-                </li>
-
-                <li class="sidebar__li">
-                    <span class="material-icons md-24">toggle_off</span>
-                    <a href="#">Tema</a>
-                </li>
+                <a href="">
+                    <li class="sidebar__li">
+                        <span class="material-icons md-24">toggle_off</span>
+                        <a class="sidebar__a" href="#">Tema</a>
+                    </li>
+                </a>
             </ul>
         </nav>
     </section>
@@ -157,7 +162,7 @@
             </div>
         </aside>
     </section>
-    <section class="contact">
+    <section class="contact" id="Contact">
         <div class="contact__container">
             <div class="front">
                 <span class="material-icons">mail</span>

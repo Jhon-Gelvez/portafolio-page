@@ -64,6 +64,7 @@ body {
 /* ----SIDEBAR MENU ----*/
 
 .sidebar {
+    user-select: none;
     background-color: transparent;
     position: fixed;
     width: clamp(60px, 20vw, 150px);

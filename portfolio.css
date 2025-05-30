@@ -261,6 +261,10 @@ h1 {
     grid-template-rows: 1fr 3fr;
 }
 
+.project__container > p > a {
+    color: inherit;
+}
+
 .project__tittle {
     grid-area: tittle;
 }
